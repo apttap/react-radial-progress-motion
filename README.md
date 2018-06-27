@@ -27,24 +27,20 @@ class MyComponent extends Component {
 ```
 
 ## Props
-const strokeWidth = this.props.strokeWidth || 10;
-const trackWidth = this.props.trackWidth || strokeWidth;
-const preIndWidth = this.props.preIndWidth || strokeWidth;
-const radius = 50 - (strokeWidth/2);
-const dashArray = (2 * Math.PI * radius);
-const indColor = this.props.indColor || '#a83ae7';
-const trackColor = this.props.trackColor || '#e3e3e3';
-const preIndColor = this.props.preIndColor || '#efefef';
-const endCaps = this.props.endCaps || 'round';
-const value = this.props.value || 100;
-const springParams =  this.props.spring || {stiffness: 170, damping: 26};
 
 Prop            | Input
 ----------------|---------
-`value`         | Percentage of indicated progress `0-100` (`25`, `30`, `99`, etc). Defaults to `0`
-`width`         | width in `px` or `%` of radial meter (`100px`, `100%`). Defaults to `100%`
-`startingPoint` | `top`, `bottom`, `left`, `right`, or degrees, (`-90`, `180`, `270`). Defaults to `top`
-`spring`        | a react-motion spring config object e.g. `{stiffness: 120, damping: 17}`. Defaults to `{stiffness: 170, damping: 26}`. Please see [react-motion documentation](https://github.com/chenglou/react-motion) for full options.
+`value`         | Integer. Percentage of indicated progress `0-100` (`25`, `30`, `99`, etc). Defaults to `0`
+`width`         | String. Width in `px` or `%` of radial meter (`100px`, `100%`). Defaults to `100%`
+`startingPoint` | String. The 0 value start point; `top`, `bottom`, `left`, `right`, or degrees, (`-90`, `180`, `270`). Defaults to `top`
+`spring`        | Object. A react-motion spring config object e.g. `{stiffness: 120, damping: 17}`. Defaults to `{stiffness: 170, damping: 26}`. Please see [react-motion documentation](https://github.com/chenglou/react-motion) for full options.
+`indWidth`   | Integer. width of line-stroke of indicator bar `1-50`, defaults to `10`
+`indColor`   | String. color of indicator bar in hex, rgb, or rgba value `#111111`, `rgb(255,255,255)`, `rgba(255,255,255,1)`
+`emptyIndWidth`   | Integer. Width of line-stroke of empty indicator bar (the bar that is to be filled in)`1-50`, defaults to `10`
+`emptyIndColor`   | String. Color of empty indicator bar in hex, rgb, or rgba value `#111111`, `rgb(255,255,255)`, `rgba(255,255,255,1)`, defaults to `#efefef`.
+`trackWidth`   | Integer. Width of line-stroke of track bar `1-50`, defaults to `10`
+`trackColor`   | String. Color of track bar in hex, rgb, or rgba value `#111111`, `rgb(255,255,255)`, `rgba(255,255,255,1)`, defaults to `#e3e3e3`
+`endCaps`      | String. Shape of endcaps on lines, `round` or `square`, defaults to `round`
 
 ## License
 

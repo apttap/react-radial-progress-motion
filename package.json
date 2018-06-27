@@ -1,6 +1,6 @@
 {
   "name": "react-radial-progress-motion",
-  "version": "1.0.11",
+  "version": "1.0.14",
   "description": "Highly customizable React component for creating radial / circular progress bars. Uses react-motion for configurable spring based animations. ",
   "author": "apttap",
   "license": "MIT",
@@ -21,7 +21,8 @@
   "peerDependencies": {
     "prop-types": "^15.5.4",
     "react": "^15.0.0 || ^16.0.0",
-    "react-dom": "^15.0.0 || ^16.0.0"
+    "react-dom": "^15.0.0 || ^16.0.0",
+    "react-motion": "^0.5.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
