@@ -42,8 +42,9 @@ const springParams =  this.props.spring || {stiffness: 170, damping: 26};
 Prop            | Input
 ----------------|---------
 `value`         | Percentage of indicated progress `0-100` (`25`, `30`, `99`, etc). Defaults to `0`
-`width`         | width in `px` or `%` of radial meter (`100px`, `100%`)
+`width`         | width in `px` or `%` of radial meter (`100px`, `100%`). Defaults to `100%`
 `startingPoint` | `top`, `bottom`, `left`, `right`, or degrees, (`-90`, `180`, `270`). Defaults to `top`
+`spring`        | a react-motion spring config object e.g. `{stiffness: 120, damping: 17}`. Defaults to `{stiffness: 170, damping: 26}`. Please see [react-motion documentation](https://github.com/chenglou/react-motion) for full options.
 
 ## License
 
