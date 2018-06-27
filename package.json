@@ -1,7 +1,7 @@
 {
   "name": "react-radial-progress-motion",
   "version": "1.0.0",
-  "description": "A radial progress component (or gauge), implemented in svg using react-motion for configurable animations.",
+  "description": "Radial progress with react-motion for transitions",
   "author": "apttap",
   "license": "MIT",
   "repository": "apttap/react-radial-progress-motion",

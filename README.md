@@ -1,6 +1,6 @@
 # react-radial-progress-motion
 
-> A radial progress component (or gauge), implemented in svg using react-motion for configurable animations.
+> Radial progress with react-motion for transitions
 
 [![NPM](https://img.shields.io/npm/v/react-radial-progress-motion.svg)](https://www.npmjs.com/package/react-radial-progress-motion) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
