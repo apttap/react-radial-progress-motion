@@ -28,8 +28,11 @@ class MyComponent extends Component {
 
 ## Props
 
-```js
-startingPoint top, bottom, left, right, or degrees, (-90, 180, 270, etc.)
+Prop | Input
+--------------|---------
+`startingPoint` | `top`, `bottom`, `left`, `right`, or degrees, (`-90`, `180`, `270`, etc.)
+baz           | qux
+quux          | quuz
 ```
 
 ## License
