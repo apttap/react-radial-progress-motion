@@ -15,15 +15,21 @@ npm install --save react-radial-progress-motion
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-radial-progress-motion'
+import RadialProgress from 'react-radial-progress-motion'
 
-class Example extends Component {
+class MyComponent extends Component {
   render () {
     return (
-      <MyComponent />
+      <RadialProgress  />
     )
   }
 }
+```
+
+## Props
+
+```js
+startingPoint top, bottom, left, right, or degrees, (-90, 180, 270, etc.)
 ```
 
 ## License
