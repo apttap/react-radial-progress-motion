@@ -3,3 +3,22 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.progress {
+  display: flex;
+  flex: 0 0 55%;
+  margin: 0% 25%;
+}
+
+.progress div {
+  display: flex;
+  flex: 1;
+  height: 230px;
+}
+
+svg {
+  font-size: 30px;
+  user-select: none;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 100;
+}
